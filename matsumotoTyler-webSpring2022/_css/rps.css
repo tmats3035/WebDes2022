@@ -1,0 +1,32 @@
+
+/* 
+Color Scheme
+    #A6032F
+    #BF0449
+    #03588C
+    #025E73 
+    #BF9004
+*/
+
+/* Describes the navigation class */
+.navigation {
+    width: 100%;
+    height: 750px;
+    background-color: #A6032F;
+    margin: 0px;
+}
+
+/* Describes the button class */
+.button {
+    margin: auto; 
+    border: #03588C;
+    color: #03588C;
+    padding: 15px 15px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Allows user to easily see which button they are hovering over  */
+.mybutton:hover {
+    background-color: #025E73;
+    transform: translateY(5px);
+}

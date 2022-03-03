@@ -1,0 +1,67 @@
+/* Color scheme I stole 
+.Mobile-app-icons-1-hex { color: #643DF2; }
+.Mobile-app-icons-2-hex { color: #D5E5F2; }
+.Mobile-app-icons-3-hex { color: #1BF2A3; }
+.Mobile-app-icons-4-hex { color: #F29422; }
+.Mobile-app-icons-5-hex { color: #F25252; }
+*/
+
+h1 {
+    color: black;
+}
+
+p {
+    color: #F25252;
+}
+/* Describes the banner class */
+.banner {
+    width: 100%;
+    height: 250px;
+    background-color: #F29422;
+}
+
+/* Describes the navigation class */
+.navigation {
+    width: 100%;
+    height: 200px;
+    background-color: #F25252;
+    margin: 0px;
+}
+
+/* Describes the content class */
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: #1BF2A3;
+    margin: 0px;
+}
+
+/* Describes the button class */
+.button {
+    background-color: #643DF2; 
+    border: black;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 128px; 
+    height: 64px; 
+}
+
+.mybutton:hover {
+    background-color: #F29422;
+    transform: translateY(1px);
+}
+
+/* Changes background color following a change in width */
+@media only screen and (max-width: 800px) {
+    .banner, .content {
+        width: 70%;
+        background-color: lightcoral; 
+    }
+  }
+/* documents that has 2 divs, when size of the window reduced, change the color of the elements on the page*/ 
